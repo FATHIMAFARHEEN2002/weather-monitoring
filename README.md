@@ -46,25 +46,25 @@
 
 ## Setup and Installation
  - 1. Clone the Repository:
-    - git clone https://github.com/your-username/weather-monitoring.git
-    - cd weather-monitoring
+       - git clone https://github.com/your-username/weather-monitoring.git
+       - cd weather-monitoring
  - 2. API Key Configuration:
-    - Obtain a free API key from OpenWeatherMap.
-    - Replace the API_KEY variable in the code with your actual OpenWeatherMap API key.
+       - Obtain a free API key from OpenWeatherMap.
+       - Replace the API_KEY variable in the code with your actual OpenWeatherMap API key.
  - 3. Install Dependencies:
-    - pip install -r requirements.txt
+       - pip install -r requirements.txt
 
 ## Running the Application
  - To start the application:
-     - . python weather_monitor.py
-      - Upon running, the application will output logged weather data every 5 minutes to the console.
+     - python weather_monitor.py
+       - Upon running, the application will output logged weather data every 5 minutes to the console.
 
 ## Future Improvements
 - This application can be enhanced in various ways:
 
-  - . Database Integration: Save weather data to a database (e.g., SQLite, PostgreSQL) for historical analysis.
-  - . Alert System: Add alerts when certain weather conditions or temperature thresholds are met.
-  - . Web Interface: Implement a web interface to visualize and interact with the logged weather data.
+   -  Database Integration: Save weather data to a database (e.g., SQLite, PostgreSQL) for historical analysis.
+   -  Alert System: Add alerts when certain weather conditions or temperature thresholds are met.
+   -  Web Interface: Implement a web interface to visualize and interact with the logged weather data.
 
 ## License
  - This project is licensed under the MIT License - see the LICENSE file for details.
@@ -72,5 +72,5 @@
 ## Contact
  - For questions, suggestions, or contributions, please reach out to:
 
-    - . Fathima Farheen  
-    - . GitHub: FATHIMAFARHEEN2002
+    -  Fathima Farheen  
+    -  GitHub: FATHIMAFARHEEN2002
