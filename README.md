@@ -20,17 +20,17 @@
   - Continuously monitors weather data and prints each entry to the console for quick inspection.
   
 ## Design Choices
- - Programming Language
+- Programming Language
    - Python was selected for its versatility and ease of working with APIs and scheduling tasks.
 
--Data Source
- - The OpenWeatherMap API provides accurate real-time weather data. The application calls the API every 5 minutes to retrieve updated information.
+- Data Source
+   - The OpenWeatherMap API provides accurate real-time weather data. The application calls the API every 5 minutes to retrieve updated information.
 
 - Scheduler
- - The schedule library is used for clean and flexible periodic execution of tasks, allowing the program to fetch data at regular intervals without manual intervention.
+   - The schedule library is used for clean and flexible periodic execution of tasks, allowing the program to fetch data at regular intervals without manual intervention.
 
 - Data Handling
- - Currently, the data is stored in memory within a Python list (weather_data) for simple demonstration purposes. However, this design can easily be extended to save data in a database like SQLite for long-term storage and analysis.
+   - Currently, the data is stored in memory within a Python list (weather_data) for simple demonstration purposes. However, this design can easily be extended to save data in a database like SQLite for long-term storage and analysis.
 
 ## Dependencies
  - To run this application, ensure you have the following installed:
